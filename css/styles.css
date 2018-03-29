@@ -1,0 +1,307 @@
+@font-face {
+    font-family: GothaProBla; 
+    src: url(../fonts/GothaProBla.otf); 
+}
+
+@font-face {
+    font-family: GothaProBol; 
+    src: url(../fonts/GothaProBol.otf); 
+}
+
+@font-face {
+    font-family: GothaProReg; 
+    src: url(../fonts/GothaProReg.otf); 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 659px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+.container {
+    width: 1079px;
+    margin: 0 auto;
+}
+
+.smo img {
+    position: relative;
+    top: -540px;
+    left: -130px;
+}
+
+.smoP {
+    width: 264px;
+    height: 65px;
+    position: relative;
+    top: -1220px;
+    left: -60px;
+    font-family: GothaProBol;
+    font-size: 20.1px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+    text-align: center;
+    color: #010101;
+    transform: matrix(0.9942,-0.1093,0.1093,0.994,0,0);
+    text-transform: uppercase;
+}
+
+.smoP span{
+    color: #bd0b01;
+}
+
+.contentHeader {
+    background: url(../img/bgHeader.png) no-repeat center top / cover;
+    width: 796px;
+    height: 778px;
+    margin: 0 auto;
+}
+
+.market {
+    float: right;
+    margin-right: 110px;
+    margin-top: 32px;
+}
+
+.market img {
+    margin-bottom: -60px; 
+}
+
+.market img:first-child {
+    margin-right: -20px;
+}
+
+.marketImg {
+    display: inline-block;
+}
+
+.loc p {
+    display: inline-block;
+    margin-left: 58px;
+    text-transform: uppercase;
+    font-family: GothaProReg;
+    color:  #000101;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: top;
+}
+
+.market .bgP {
+    display: block;
+    color: #fff;
+    background-color: #bd0b01;
+    width: 268px;
+    height: 45px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: GothaProBol;
+    text-transform: uppercase;
+    
+    -webkit-clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+.marketButton {
+    margin-top: 60px;
+    font-family: GothaProBol; 
+}
+
+.marketButton p {
+    margin: 0;
+}
+
+.marketP1 {
+    color:  #000101;
+    font-size: 41.5px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1.7px;
+}
+
+.marketP2 {
+    color:  #bd0b01;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.marketP3 {
+    color:  #000101;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1.2px;
+}
+
+input[type="text"] {
+    width: 340px;
+    height: 63px;
+    border-radius: 12.5px;
+    background-color: #ffffff;
+    border: solid 1px #d9d9d9;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+input[type="submit"] {
+    width: 333px;
+    height: 62px;
+    margin-top: 22px;
+    margin-left: 33px;
+    border-radius: 31px;
+    background-color: #25941a;
+    box-shadow: 0px 6px 7.2px 1.8px rgba(0, 0, 0, 0.2);
+    font-family: GothaProReg;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.privileges {
+    height: 375px;
+    background: #ffffff;
+}
+
+.privileges p {
+    margin-top: 70px;
+    font-family: GothaProBol;
+    color:  #000101;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.privileges span{
+    color: #bd0b01;
+}
+
+.privileges img {
+    margin-top: 40px;
+    float: left;
+    width: 345px;
+}
+
+.sectionVideo {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 640px;
+}
+
+.video {
+    position: relative;
+    top: -20px;
+    background: url(../img/bgMain.png) no-repeat center top / cover;
+    width: 960px;
+    height: 660px;
+}
+
+.videoContent {
+    position: relative;
+    top: 80px;
+}
+
+.videoContent p {
+    margin: 0;
+    font-family: GothaProBol;
+    color:  #000101;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.videoP1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.videoP2 {
+    font-size: 72.51px;
+}
+
+.videoContent iframe {
+    margin-left: 100px;
+    margin-top: 56px;
+}
+
+.videoContent span{
+    color: #bd0b01;
+}
+
+.regulations {
+    background: #ffffff;
+    height: 491px;
+}
+
+.regulations img {
+    margin-top: 120px;
+    margin-right: 31px;
+    float: left;
+}
+
+.regulations img:first-child {
+    margin-left: 20px;
+}
+
+footer {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 504px;
+    
+}
+
+.footerContent {
+    position: relative;
+    top: -20px;
+    
+    background: url(../img/bgFooter.png) no-repeat center top / cover;
+    width: 960px;
+    height: 524px;
+    
+}
+
+.footerContent img {
+    position: relative;
+    top: 31px;
+    left: 55px;
+}
+
+.footerContent p {
+    position: relative;
+    top: -460px;
+    left: 450px;
+    width: 357px;
+    height: 112px;
+  
+    font-family: GothaProBol;
+    font-size: 58.1px;
+    font-weight: bold;
+    letter-spacing: -2.3px;
+    text-align: center;
+    color: #010101;
+}
+
+footer .container {
+    height: 504px;
+}
+
+
+
+
+
