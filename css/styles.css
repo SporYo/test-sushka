@@ -32,7 +32,7 @@ header {
 
 .smo img {
     position: relative;
-    top: -540px;
+    top: -520px;
     left: -130px;
 }
 
@@ -108,7 +108,6 @@ header {
     font-weight: 700;
     font-family: GothaProBol;
     text-transform: uppercase;
-    
     -webkit-clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
     clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
 }
@@ -229,10 +228,10 @@ input[type="submit"] {
 
 .videoP1 {
     font-size: 24px;
-    margin-bottom: 30px;
 }
 
 .videoP2 {
+    margin-top: 70px;
     font-size: 72.51px;
 }
 
@@ -263,13 +262,11 @@ input[type="submit"] {
 footer {
     background: url(../img/bg.jpg) no-repeat center top / cover;
     height: 504px;
-    
 }
 
 .footerContent {
     position: relative;
     top: -20px;
-    
     background: url(../img/bgFooter.png) no-repeat center top / cover;
     width: 960px;
     height: 524px;
@@ -288,13 +285,13 @@ footer {
     left: 450px;
     width: 357px;
     height: 112px;
-  
     font-family: GothaProBol;
     font-size: 58.1px;
     font-weight: bold;
     letter-spacing: -2.3px;
     text-align: center;
     color: #010101;
+    text-transform: uppercase;
 }
 
 footer .container {
